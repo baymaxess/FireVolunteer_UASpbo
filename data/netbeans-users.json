@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1001,
+        "username": "netbeans_admin",
+        "phone": "081000000001",
+        "email": "admin@netbeans.test",
+        "password": "123456",
+        "role": "Koordinator",
+        "full_name": "Admin NetBeans"
+    }
+]

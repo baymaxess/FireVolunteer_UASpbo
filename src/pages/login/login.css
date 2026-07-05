@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Segoe UI, sans-serif;
+    background: #eeeeee;
+}
+
+.login-page {
+
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+
+}
+
+.login-left {
+
+    width: 50%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background: white;
+
+}
+
+.logo-fire .fire {
+    color: #d35400;
+    font-size: 90px;
+}
+
+.login-left h1 {
+
+    margin-top: 15px;
+
+    color: #2e3748;
+
+}
+
+.login-left p {
+
+    color: gray;
+
+    margin-top: 5px;
+
+}
+
+.login-right {
+
+    width: 50%;
+
+    background: white;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    padding: 90px;
+
+}
+
+.sub {
+
+    color: gray;
+
+    margin-bottom: 30px;
+
+}
+
+.role {
+
+    display: flex;
+
+    gap: 15px;
+
+    margin-bottom: 20px;
+
+}
+
+.role button {
+
+    flex: 1;
+
+    padding: 12px;
+
+    border: 1px solid #ddd;
+
+    background: white;
+
+    cursor: pointer;
+
+}
+
+.active {
+    background: #fff0f2;
+    color: #b71c2d;
+}
+
+.login-right label {
+
+    margin-top: 15px;
+
+    margin-bottom: 8px;
+
+}
+
+.login-right input {
+
+    padding: 14px;
+
+    border: 1px solid #ddd;
+
+    margin-bottom: 10px;
+
+}
+
+.login-button {
+    margin-top: 25px;
+    background: #D51C39;
+    color: white;
+    padding: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background: #a3152e;
+}
+
+.login-right a {
+    margin-top: 15px;
+    color: #D51C39;
+    text-decoration: none;
+}

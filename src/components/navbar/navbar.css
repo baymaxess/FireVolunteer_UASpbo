@@ -1,0 +1,109 @@
+.navbar {
+
+    height: 88px;
+
+    background: white;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 0 24px;
+
+    border-bottom: 1px solid #eee;
+
+}
+
+.location {
+
+    color: #D51C39;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    flex-shrink: 0;
+
+}
+
+.search {
+
+    width: 420px;
+
+    height: 48px;
+
+    border: 1px solid #efb6b6;
+
+    border-radius: 25px;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 0 20px;
+
+    gap: 15px;
+
+    flex-shrink: 0;
+
+}
+
+.search input {
+
+    width: 100%;
+
+    border: none;
+
+    outline: none;
+
+}
+
+.profile {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 14px;
+
+    flex-shrink: 0;
+
+}
+
+.profile-icon {
+
+    width: 48px;
+
+    height: 48px;
+
+    display: grid;
+
+    place-items: center;
+
+    border: 1px solid #ddd;
+
+    border-radius: 50%;
+
+    color: #999;
+
+    background: #f8f8f8;
+
+}
+
+.profile-icon svg {
+
+    width: 28px;
+
+    height: 28px;
+
+}
+
+.profile span {
+
+    color: gray;
+
+    font-size: 13px;
+
+}

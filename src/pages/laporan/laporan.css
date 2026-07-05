@@ -1,0 +1,227 @@
+/* Laporan page styles */
+.laporan-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px
+}
+
+.laporan-header h1 {
+    color: #D51C39;
+    margin: 0;
+    font-size: 32px
+}
+
+.laporan-header p {
+    color: #666;
+    margin: 4px 0 0 0
+}
+
+.btn-tambah {
+    background: #D51C39;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer
+}
+
+.filter-card {
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px
+}
+
+.filter-left {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.filter-left button {
+    padding: 8px 14px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    background: #fff;
+    cursor: pointer
+}
+
+.filter-left .aktif {
+    background: #D51C39;
+    color: white
+}
+
+.filter-right select {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ddd
+}
+
+.laporan-table-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 0;
+    border: 1px solid #eee
+}
+
+.reports-table {
+    width: 100%;
+    border-collapse: collapse
+}
+
+.reports-table thead th {
+    text-align: left;
+    padding: 14px 16px;
+    background: #faf2f3;
+    color: #6b6b6b;
+    font-size: 13px;
+    border-bottom: 1px solid #efecec
+}
+
+.reports-table tbody td {
+    padding: 14px 16px;
+    border-bottom: 1px solid #f6f6f6;
+    color: #333
+}
+
+.bold {
+    font-weight: 700
+}
+
+.report-type {
+    background: #fdeff0;
+    padding: 6px 10px;
+    border-radius: 12px;
+    color: #b04
+}
+
+.report-status {
+    padding: 6px 10px;
+    border-radius: 8px;
+    font-weight: 700
+}
+
+.report-status.accepted {
+    background: #fff8e6;
+    color: #c67b00
+}
+
+.report-status.processing {
+    background: #fff0f2;
+    color: #b71c2d
+}
+
+.report-status.done {
+    background: #e9fff0;
+    color: #1b7a3a
+}
+
+.action {
+    text-align: center
+}
+
+.table-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px
+}
+
+.summary {
+    color: #666
+}
+
+.pagination {
+    display: flex;
+    gap: 8px;
+    align-items: center
+}
+
+.page,
+.page-arrow {
+    border: 1px solid #ddd;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer
+}
+
+.page.current {
+    background: #d51c39;
+    color: white;
+    border-color: #d51c39
+}
+
+@media (max-width:900px) {
+    .filter-card {
+        flex-direction: column;
+        gap: 12px;
+        align-items: flex-start
+    }
+}
+
+/* Modal styles */
+.modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 40;
+}
+
+.modal {
+    background: #fff;
+    padding: 18px;
+    border-radius: 8px;
+    width: 480px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.modal h3 {
+    margin: 0 0 12px 0
+}
+
+.modal form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+.modal label {
+    font-size: 13px;
+    color: #444
+}
+
+.modal input,
+.modal select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-top: 8px
+}
+
+.modal-actions button {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    cursor: pointer
+}
+
+.modal-actions .btn-tambah {
+    background: #D51C39;
+    color: #fff;
+    border: none
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "username": "koordinator1",
+        "phone": "081234567890",
+        "email": "koordinator@firevolunteer.test",
+        "password": "123456",
+        "role": "Koordinator",
+        "full_name": "Koordinator Utama"
+    },
+    {
+        "id": 2,
+        "username": "relawan1",
+        "phone": "081111111111",
+        "email": "relawan@firevolunteer.test",
+        "password": "123456",
+        "role": "Relawan",
+        "full_name": "Relawan Pertama"
+    }
+]
